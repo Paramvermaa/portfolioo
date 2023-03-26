@@ -1,0 +1,31 @@
+body{
+    background-color: #FFDD83;
+}
+.main_Table
+{
+    color: antiquewhite;
+    background-color: #00235B;
+    height: 10px;
+    width: 80%;
+    border: 10px;
+    border-radius: 10%;
+    border-color: #00235B;
+    border-width: 10%;
+}
+hr{
+    color: #E21818;
+    border: none;
+    border-top: dotted;
+    border-width: 10px;
+    width: 10%;
+}
+.reference
+{
+    font-size: larger;
+    font-variant:small-caps;
+    text-decoration: none;
+    color: #98DFD6;
+}
+a:hover{
+    color: #E21818;
+}
