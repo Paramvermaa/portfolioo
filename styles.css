@@ -1,31 +1,83 @@
-body{
-    background-color: #FFDD83;
-}
-.main_Table
+body
 {
-    color: antiquewhite;
-    background-color: #00235B;
-    height: 10px;
-    width: 80%;
-    border: 10px;
-    border-radius: 10%;
-    border-color: #00235B;
-    border-width: 10%;
+    color: #393E46;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #EEEEEE;
 }
-hr{
-    color: #E21818;
+.navbar
+{
+    background-color: #232931;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.pading_Info
+{
+    padding: 5% 25%;
+}
+.head_info
+{
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+h1
+{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 5rem;
+    text-transform: uppercase;
+}
+p{
+    font-size: 1.2rem;
+}
+.navbar-brand
+{
+    color: #EEEEEE;
+    font-weight: 500;
+}
+.navbar-brand:hover
+{
+    font-weight: 200;
+}
+h2
+{
+    color: #232931;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 5rem;
+    text-transform: uppercase;
+}
+.padder
+{
+    margin: 0 10%;
+}
+h3
+{
+    color: #232931;
+}
+hr {
     border: none;
-    border-top: dotted;
-    border-width: 10px;
-    width: 10%;
+    border-top: 10px double #4ECCA3;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
 }
-.reference
+.skills
 {
-    font-size: larger;
-    font-variant:small-caps;
-    text-decoration: none;
-    color: #98DFD6;
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
-a:hover{
-    color: #E21818;
+.skill
+{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    background: rgba(153,153,153,.2);
+    border-radius: 10px;
+    font-weight:400;
+    color: #4ECCA3;
 }
