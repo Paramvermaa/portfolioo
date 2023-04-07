@@ -6,6 +6,8 @@ body
 }
 .navbar
 {
+    position:fixed;
+    width: 100%;
     background-color: #232931;
     text-transform: uppercase;
     letter-spacing: 4px;
