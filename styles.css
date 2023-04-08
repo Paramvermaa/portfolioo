@@ -1,14 +1,16 @@
 body
 {
-    color: #393E46;
+    color: #4a4a4a;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #EEEEEE;
+    background-color: #fff;
 }
 .navbar
 {
-    position:fixed;
+    font-weight: bold;
+    color: #111;
     width: 100%;
-    background-color: #232931;
+    position: fixed;
+    background-color: #fff;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -18,13 +20,16 @@ body
 }
 .head_info
 {
-    background-color: #393E46;
-    color: #EEEEEE;
+    padding: 15% 25%;
+    background-color: #f3f3f3;
+    color: #4a4a4a;
+    background: linear-gradient(to bottom,rgba(245,245,245,.8),#ffdd67),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
 }
 h1
 {
-    font-size: 3rem;
-    letter-spacing: 1px;
+    color: #111;
+    font-size: 4rem;
+    letter-spacing: 2px;
     font-weight: bold;
     padding-top: 5rem;
     text-transform: uppercase;
@@ -34,12 +39,12 @@ p{
 }
 .navbar-brand
 {
-    color: #EEEEEE;
+    color: #4a4a4a;
     font-weight: 500;
 }
 .navbar-brand:hover
 {
-    font-weight: 200;
+    color: #ffcd38;
 }
 h2
 {
@@ -52,19 +57,18 @@ h2
 }
 .padder
 {
-    margin: 0 10%;
+    margin: 0 8%;
 }
 h3
 {
     color: #232931;
 }
 hr {
-    border: none;
-    border-top: 10px double #4ECCA3;
-    color: #333;
-    overflow: visible;
+    color: #ffcd38;
+    border-top: #ffcd38 dashed 25px;
+    width: 100%;
+    opacity: 1;
     text-align: center;
-    height: 5px;
 }
 .skills
 {
@@ -80,10 +84,22 @@ hr {
     font-size: 1rem;
     background: rgba(153,153,153,.2);
     border-radius: 10px;
-    font-weight:400;
-    color: #4ECCA3;
+    font-weight:700;
+    color: #393E46;
 }
 .skill:hover
 {
-    background: #393E46;
+    background-color: #ffcd38;
+}
+.nav-link:hover
+{
+    color: #ffcd38;
+}
+.nav-link
+{
+    padding: 1rem 0;
+}
+.hrr
+{
+    text-align: center;
 }
