@@ -65,7 +65,7 @@ h3
 }
 hr {
     color: #ffcd38;
-    border-top: #ffcd38 dashed 25px;
+    border-top: #ffcd38 dotted 1rem;
     width: 100%;
     opacity: 1;
     text-align: center;
@@ -102,4 +102,7 @@ hr {
 .hrr
 {
     text-align: center;
+    width: 30%;
+    position: relative;
+    left: 35%;
 }
