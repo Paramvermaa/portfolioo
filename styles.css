@@ -83,3 +83,7 @@ hr {
     font-weight:400;
     color: #4ECCA3;
 }
+.skill:hover
+{
+    background: #EEEEEE
+}
