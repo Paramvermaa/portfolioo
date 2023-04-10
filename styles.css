@@ -27,12 +27,12 @@ body
 }
 h1
 {
-    color: white;
-    text-shadow: #ffcd38 10px 0 5px;
+    color: rgba(0, 0, 0, 0.89);
+    text-shadow: #ffcd38 10px 0 10px;
     font-size: 6rem;
-    letter-spacing: 2px;
+    letter-spacing: 0;
     font-weight: 700;
-    padding-top: 5rem;
+    padding-top: 3rem;
     font-family: 'Montez', cursive;
 }
 p{
