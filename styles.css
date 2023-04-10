@@ -14,16 +14,19 @@ body
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+.head_padding
+{
+    padding: 15% 25%;
+}
 .pading_Info
 {
     padding: 5% 25%;
 }
 .head_info
 {
-    padding: 15% 25%;
     background-color: #f3f3f3;
     color: #4a4a4a;
-    background: linear-gradient(to bottom,rgba(245,245,245,.8),#ffdd67),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    background: linear-gradient(to bottom,rgba(245,245,245,.8) 40%,#ffdd67),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
 }
 h1
 {
@@ -32,7 +35,7 @@ h1
     font-size: 6rem;
     letter-spacing: 0;
     font-weight: 700;
-    padding-top: 3rem;
+    padding-top: 4rem;
     font-family: 'Montez', cursive;
 }
 p{
@@ -107,4 +110,82 @@ hr {
     width: 30%;
     position: relative;
     left: 35%;
+}
+.contact_form
+{
+    background-color:white;
+    width: 95%;
+    border-radius: 1%;
+    max-width:50rem;
+    padding: 3rem;
+}
+.contact_Container
+{
+    padding-bottom: 8rem;
+}
+.project_inner
+{
+    width: 100%;
+}
+.contact__form-input
+{
+    color: #333;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: .8rem;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.contact__form-label {
+    color: #666;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+}
+footer
+{
+    color: #f3f3f3;
+    background:  #000;
+    width: 100%;
+    padding: 2rem 2rem;
+}
+h4
+{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.foot_name
+{
+    font-size: 1rem;
+}
+.foot_font
+{
+    font-size: 90%;
+}
+.footer_hr
+{
+    text-align: center;
+    width: 50%;
+}
+h6
+{
+    padding: 4rem 0 1rem 0;
+    font-size: .7rem;
+}
+.social_logo
+{
+    border-radius: 100%;
+    background-color: #ebebeb;
+    padding: 2%;
+    width: 3rem;
 }
