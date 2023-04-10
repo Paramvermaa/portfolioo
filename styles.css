@@ -27,12 +27,13 @@ body
 }
 h1
 {
-    color: #111;
-    font-size: 4rem;
+    color: white;
+    text-shadow: #ffcd38 10px 0 5px;
+    font-size: 6rem;
     letter-spacing: 2px;
-    font-weight: bold;
+    font-weight: 700;
     padding-top: 5rem;
-    text-transform: uppercase;
+    font-family: 'Montez', cursive;
 }
 p{
     font-size: 1.2rem;
@@ -69,6 +70,7 @@ hr {
     width: 100%;
     opacity: 1;
     text-align: center;
+    z-index: inherit;
 }
 .skills
 {
